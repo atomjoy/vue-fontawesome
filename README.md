@@ -1,6 +1,17 @@
 # Vue3 fontawesome
 How to install fontawesome in vue3.
 
+## Vue 3
+
+```sh
+npm install vue@latest
+npm install vue-router@4
+npm install vue-i18n@9
+npm install pinia
+npm install --save-dev @vitejs/plugin-vue
+npm install @googlemaps/js-api-loader
+```
+
 ## Fontawesome
 
 ### Install
