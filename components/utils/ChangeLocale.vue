@@ -10,6 +10,7 @@
 import { watch, computed, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 // import { useAuthStore } from '@/views/page/auth/stores/auth.js'
+
 // const store = useAuthStore()
 const { t, locale, availableLocales } = useI18n({ useScope: 'global' })
 
