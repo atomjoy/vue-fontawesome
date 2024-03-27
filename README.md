@@ -40,6 +40,8 @@ app.mount('#app')
 ### Add icon
 
 ```vue
+// import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
 <script>
 function scrollToTop() {
     window.scrollTo({top: 0, behavior: 'smooth'});
