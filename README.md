@@ -41,8 +41,6 @@ app.mount('#app')
 
 ```vue
 <script>
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-
 function scrollToTop() {
     window.scrollTo({top: 0, behavior: 'smooth'});
     // window.scrollIntoView({ behavior: 'smooth' })    
