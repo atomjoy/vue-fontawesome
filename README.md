@@ -1,5 +1,5 @@
 # Vue3 fontawesome
-How to install fontawesome in vue3.
+How to install free icons from fontawesome in vue3.
 
 ## Vue 3
 
