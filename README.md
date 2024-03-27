@@ -1,4 +1,4 @@
-# Vue3 utils
+# Vue3 fontawesome
 How to install fontawesome in vue3.
 
 ## Fontawesome
