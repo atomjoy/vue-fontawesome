@@ -28,23 +28,12 @@ npm i --save @fortawesome/free-brands-svg-icons
 ```js
 import './bootstrap';
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import { createI18n } from 'vue-i18n'
-import router from './router'
-import lang from './lang'
 import App from './App.vue'
 import './assets/main.css'
 import FontAwesomeIcon from "./utils/fontawesome";
 
 const app = createApp(App)
-const i18n = createI18n(lang)
-const stores = createPinia()
-
 app.component("FontAwesomeIcon", FontAwesomeIcon)
-app.use(i18n)
-app.use(stores)
-app.use(router)
-
 app.mount('#app')
 ```
 
