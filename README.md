@@ -1,5 +1,5 @@
 # Vue3 utils
-How to install fontawesome, google map in vue3.
+How to install fontawesome in vue3.
 
 ## Fontawesome
 
