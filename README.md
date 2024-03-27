@@ -36,3 +36,51 @@ app.use(router)
 
 app.mount('#app')
 ```
+
+### Add icon
+
+```vue
+<script>
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+function scrollToTop() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+    // window.scrollIntoView({ behavior: 'smooth' })    
+    // window.scrollTo(0,0);
+}
+</script>
+<template>    
+    <a href="#" @click="scrollToTop"><div class="scrolltop">
+        <font-awesome-icon :icon="['fas', 'chevron-up']" />
+    </div></a>
+</template>
+<style>
+html {
+    scroll-behavior: smooth;
+}
+
+.scrolltop {
+    color: #fff;
+    background: #0099ff;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 15px;    
+}
+</style>
+```
+
+### More icons
+
+```vue
+<i class="fa-solid fa-user"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-youtube"></i>
+<i class="fa-brands fa-x-twitter"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-facebook-f"></i>
+<i class="fa-solid fa-question-circle"></i>
+<font-awesome-icon icon="fa-solid fa-house" />
+<font-awesome-icon :icon="['fab', 'x-twitter']" />
+<font-awesome-icon :icon="['fas', 'chevron-up']" />
+```
